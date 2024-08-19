@@ -4,6 +4,7 @@ import lombok.Data;
 
 import java.time.LocalDateTime;
 import java.util.List;
+import com.example.shopping.model.Order;
 
 @Data
 public class OrderDto {
@@ -11,7 +12,7 @@ public class OrderDto {
     private Long userId;
     private String address;
     private String phoneNumber;
-    private Order.OrderStaus status;
+    private Order.OrderStatus status;
     private LocalDateTime createdAt;
     private List<OrderItemDto> orderItems;
 

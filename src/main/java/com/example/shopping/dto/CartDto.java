@@ -2,6 +2,8 @@ package com.example.shopping.dto;
 
 import lombok.Data;
 
+import java.util.List;
+
 @Data
 public class CartDto {
     private Long id;
