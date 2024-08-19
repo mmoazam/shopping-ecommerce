@@ -3,10 +3,11 @@ package com.example.shopping.dto;
 import lombok.Data;
 
 import java.math.BigDecimal;
+import java.util.List;
 
 @Data
 public class ProductDto {
-    private Long Id;
+    private Long id;
     private String name;
     private String description;
     private BigDecimal price;
